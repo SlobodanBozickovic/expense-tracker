@@ -22,3 +22,26 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# prod properties file
+src/main/resources/application-prod.properties
+# local env variables
+.env
+
+# Ignore IDE files
+.idea/
+*.iml
+
+# Ignore system files (macOS and Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore Maven wrapper files (if using global Maven)
+mvnw
+mvnw.cmd
+
+# Ignore generated files
+target/
+
+# Ignore help files
+HELP.md
