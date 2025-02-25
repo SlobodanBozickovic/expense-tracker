@@ -24,8 +24,7 @@ hs_err_pid*
 replay_pid*
 
 # prod properties file
-application-prod.properties
-
+src/main/resources/application-prod.properties
 # local env variables
 .env
 
